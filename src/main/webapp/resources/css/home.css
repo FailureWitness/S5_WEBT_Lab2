@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 1.2rem;
+	background-color: #333;
+	color: #c0c0c0;
+}
+input:focus,
+.list-item-button:focus,
+.info-button:focus{
+	outline: none;
+}
+.list-item-button:active,
+.info-button:active{
+	border-color: white;
+	color: white;
+}
+.head{
+	background-color: #111;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color: #ff8000;
+	font-sixe: 1.5rem;
+}
+.info-button{
+	padding: 10px;
+	
+	color: #ff8000;
+	background-color: transparent;
+	
+	border: solid;
+	border-width: 1px;
+	border-bottom-color: #ff8000;
+	
+	cursor: pointer;
+	
+	margin-left: 5px;
+}
+.content{
+	height: 100vh;
+	overflow: auto;
+}
+.list{
+	margin: auto;
+	margin-top: 30px;
+	width: 70vw;
+}
+.list-item{
+	display: flex;
+	align-items: center;
+	
+	margin-bottom: 10px;
+	
+	border: none;
+}
+.list-item-text{
+	margin: 0;
+	padding: 10px;
+	padding-right: 0;
+	width: 100%;
+	
+	border: solid;
+	border-right: none;
+	border-width: 1px;
+	border-color: #3cff00;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.list-item .list-item-button:last-child{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-right: solid;
+	border-width: 1px;
+}
+
+.list-item-button{
+	height: 100%;
+	font-size: 1.2rem;
+	padding: 10px;
+	
+	background-color: #3444bc;
+	color: #0dd;
+	
+	border: solid;
+	border-right: none;
+	border-color: #0dd;
+	border-width: 1px;
+	
+	cursor: pointer;
+}
+.danger{
+	background-color: #770202;
+	color: #ff4444;
+	border-color: #ff4444;
+}
+.list-item-input{
+	font-size: 1.2rem;
+	background-color: transparent;
+	color: #c0c0c0;
+}
+footer{
+	background-color: #111;
+	color: #ff8000;
+	
+	line-height: 2;
+	text-align: center;
+}
+
+.popup{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.popup-content{
+	width: 700px;
+	min-width: 50vmin;
+	max-width: 90vmin;
+	
+	display: flex;
+	flex-direction: column;
+	
+	background-color: #333;
+	color: #ff8000;
+	
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	
+	border: solid;
+	border-width: 1px;
+	border-color: #ff8000;
+}
+.buttons-row{
+	display:flex;
+	margin-left: auto;
+	justify-content: space-between;
+}
+.ag
+/* Made by EugeneVV */
