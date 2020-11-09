@@ -58,6 +58,10 @@ input:focus,
 	
 	border: none;
 }
+.done{
+	text-decoration: line-through;
+	color: #777;
+}
 .list-item-text{
 	margin: 0;
 	padding: 10px;
@@ -83,12 +87,12 @@ input:focus,
 	font-size: 1.2rem;
 	padding: 10px;
 	
-	background-color: #3444bc;
-	color: #0dd;
+	background-color: #2b3899;
+	color: #0bb;
 	
 	border: solid;
 	border-right: none;
-	border-color: #0dd;
+	border-color: #0bb;
 	border-width: 1px;
 	
 	cursor: pointer;

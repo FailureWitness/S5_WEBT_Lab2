@@ -1,7 +1,7 @@
 <!DOCTYPE text>
 <html>
 <head>
-	<title th:fragment = "title">S5_WEBT_Lab1</title>
+	<title th:fragment = "title">S5_WEBT_Lab2</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="/S5_WEBT_Lab2/resources/css/home.css"/>
 </head>
@@ -9,24 +9,12 @@
 	<div class = "content">
 		<div class = "head">
 			<span class = "logo">Lab2</span>
-			<button class = "info-button">info</button>
+			<button class = "info-button" onclick = "showInfo()">info</button>
 		</div>
-		<div class = "list">
-			<div class = "list-item">
-				<p class = "list-item-text">text</p>
-				<button class = "list-item-button">done</button>
-				<button class = "list-item-button">update</button>
-				<button class = "danger list-item-button">remove</button>
-			</div>
-			<div class = "list-item">
-				<p class = "list-item-text">TEXT2</p>
-				<button class = "list-item-button">done</button>
-				<button class = "list-item-button">update</button>
-				<button class = "danger list-item-button">remove</button>
-			</div>
-			<form class = "create-item list-item">
+		<div class = "list" id = "list">
+			<form class = "create-item list-item" id = "create-form" action = "#">
 				<input type = "text" class = "list-item-input list-item-text" placeholder = "new item"/>
-				<input type = "button" class = "list-item-button" value = "create"/>
+				<input type = "submit" class = "list-item-button" value = "create"/>
 			</form>
 		</div>
 	</div>
@@ -37,26 +25,14 @@
 			<label class = "info-text">
 				Semester 5. Web-technologies. Lab2. <br/>
 				To-do list (task 8) <br/>
-				This web-site is simple to-do list that saved locally (local store)
+				This web-site is simple to-do list that saved locally (local store) <br/>
+				Made by EugeneVV TTP-3
 			</label>
 			<div class = "buttons-row">
-				<button class = "info-button">close</button>
+				<button class = "info-button" onclick="hideInfo()">close</button>
 			</div>
 		</div>
 	</div>
-	
-	<div class = "popup" id = "warning-popup">
-		<div class = "popup-content">
-			<label class = "warning-text">
-				SOME WARNING
-			</label>
-			<div class = "buttons-row">
-				<button class = "info-button">ok</button>
-				<button class = "info-button">cancle</button>
-			</div>
-		</div>
-	</div>
-	
 	<script type="text/javascript" src="/S5_WEBT_Lab2/resources/js/home.js"></script>
 </body>
 </html>
