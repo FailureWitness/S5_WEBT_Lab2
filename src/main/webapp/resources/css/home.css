@@ -25,7 +25,8 @@ input:focus,
 }
 .logo{
 	color: #ff8000;
-	font-sixe: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 .info-button{
 	padding: 10px;
