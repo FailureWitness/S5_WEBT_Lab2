@@ -51,6 +51,9 @@ input:focus,
 	margin-top: 30px;
 	width: 70vw;
 }
+.js-list-item-wrapper{
+	overflow: visible;
+}
 .list-item{
 	display: flex;
 	align-items: center;
@@ -58,6 +61,17 @@ input:focus,
 	margin-bottom: 10px;
 	
 	border: none;
+	
+	cursor: grab;
+}
+.drop-place{
+	display: none;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	
+	height: calc(1.5 * 1.2rem + 22px);
+	width: 100%;
 }
 .done{
 	text-decoration: line-through;
